@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <meta name='viewport'
+      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <title>Phi-Khanh Tran | CS Portfolio</title>
+    <link rel='stylesheet' href='styles.css'/>
+    <link rel="stylesheet" type="text/css" href="file:///C:/Users/trann/Desktop/cs-portfolio/fontawesome-free-5.10.2-web/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jquery_methods.js"></script>
+  </head>
+  <body>
+
+    <header class="main-header">
+      <nav>
+        <a href="#">Nick Tran</a>
+        <div class="menu-container">
+          <a href="#" class="menu">
+            <i class="fa fa-bars"></i>
+          </a>
+          <ul class="navbar">
+            <li class="navbar-item"><a href="#Introduction">Introduction</a></li>
+            <li class="navbar-item"><a href="#Education">Education</a></li>
+            <li class="navbar-item"><a href="#Projects">Projects</a></li>
+            <li class="navbar-item"><a href="#Work">Work</a></li>
+            <li class="navbar-item"><a href="#Extras">Extras</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <article class="page">
+
+      <section>
+        <img src="images/introduction/cover-photo-small.jpg"
+             srcset="images/introduction/cover-photo-small.jpg 612w,
+                     images/introduction/cover-photo-medium.jpg 900w,
+                     images/introduction/cover-photo-big.jpg 1354w"
+             sizes="(min-width: 960px) 960px,
+                100vw"></img>
+        <h1 id="Introduction" class="section-header">Introduction</h1>
+          <div class="flex-container">
+            <p class="section-text">
+              Hello! I am Phi-Khanh, but I commonly go by Nick! I am a recent graduate
+              from University of California, Irvine where I gained
+              experience in mobile and full stack development.
+            </p>
+            <p class="section-text">
+              I am interested in an entry level position for software engineering.
+              Here are some of the skills I am experienced in:
+            </p>
+            <table class="skills-table">
+              <tr>
+                <th class="table-header" colspan=3 >Languages</th>
+              </tr>
+              <tr>
+                <td>Python</td>
+                <td>HTML</td>
+                <td>PHP</td>
+              </tr>
+              <tr>
+                <td>Java</td>
+                <td>CSS</td>
+                <td>SQL</td>
+              </tr>
+              <tr>
+                <td>C++</td>
+                <td>JavaScript</td>
+              </tr>
+            </table>
+            <table class="skills-table">
+              <tr>
+                <th class="table-header">Frameworks</th>
+                <th class="table-header">Tools</th>
+              </tr>
+              <tr>
+                <td>jQuery</td>
+                <td>Git</td>
+              </tr>
+              <tr>
+                <td>Bootstrap</td>
+                <td>Android Studio</td>
+              </tr>
+              <tr>
+                <td>Jersey</td>
+                <td>Unity</td>
+              </tr>
+            </table>
+          </div> <!--end flex-container -->
+      </section> <!-- end introduction section -->
+
+      <section>
+        <h1 id="Education" class="section-header">Education</h1>
+          <h2 class="section-header-2">University of California, Irvine</h2>
+            <p class="time-frame">September 2016 - June 2019<p>
+            <p class="section-text"> I recently graduated from UC Irvine in June of 2019 with a
+            Bachelor's for Computer Science. While studying there, I learned
+            all sorts of things such as coding languages like Python, C++, and
+            Java. I also took courses in data structures, algorithms, computer
+            networking, and many others. Take a look at some of the courses I have
+            taken: </p>
+            <span class="link">
+              <i class="far fa-file-pdf"></i>
+              <a href="docs/transcript_uci.pdf" title="UCI Transcript">UCI Transcript</a>
+            </span>
+
+          <h2 class="section-header-2">San Joaquin Delta College</h2>
+            <p class="time-frame">August 2012 - June 2016<p>
+            <p class="section-text"> During 2012-2016, I took additional community college courses at San Joaquin
+            Delta College while also attending my high school courses. This allowed me to finish
+            many of my GE's and graduate from UC Irvine within 3 years. Check out my transcript
+            from San Joaquin Delta College: </p>
+            <span class="link">
+              <i class="far fa-file-pdf"></i>
+              <a href="docs/transcript_sjdc.pdf" title="SJDC Transcript">SJDC Transcript</a>
+            </span>
+
+          <ul class="course-work">
+            <h2 class="section-header-2">Course Work</h2>
+            <li>Design and Analysis of Algorithms</li>
+            <li>Data Structure Implementation and Analysis</li>
+            <li>Introduction to Data Management</li>
+            <li>Computer Networks</li>
+            <li>Introduction to Artificial Intelligence</li>
+            <li>Information Retrieval</li>
+            <li>Project in Operating System Organization</li>
+            <li><em>And many more!</em></li>
+          </ul>
+
+      </section> <!-- end education section -->
+
+      <section>
+        <h1 id="Projects" class="section-header">Projects</h1>
+          <div class="flex-container">
+            <div class="carousel-container">
+              <i class="carousel-button carousel-back fas fa-chevron-left"></i>
+              <i class="carousel-button carousel-forward fas fa-chevron-right"></i>
+              <div id="carousel-item-1" class="carousel-item">
+                <!-- <a href="#">I'm first item</a>
+                <h2 class="section-header-2">Board No More</h2>
+                  <p class="time-frame">April 2019 - June 2019</p>
+                  <p class="section-text">
+                  Board No More is a board game business web application for the sales of popular board games.
+                  It's design was created through HTML, CSS, and JavaScript and utilizes RESTful web services for its server side logic.
+                  Board No More pulls data from a SQL database to display data and can even process orders and add those to an
+                  existing database.
+                  </p> -->
+                  <img class = "carousel-img"
+                       src="images/projects/boardNoMore/table-small.png"
+                       srcset="images/projects/boardNoMore/table-small.png 730w,
+                               images/projects/boardNoMore/table-medium.png 1200w,
+                               images/projects/boardNoMore/table-big.png 1894w "></img>
+
+                  <h2 class="carousel-item-title">Board No More</h2>
+              </div>
+              <div id="carousel-item-2" class="carousel-item">
+                <img class = "carousel-img"
+                     src="images/introduction/cover-photo-small.jpg"
+                     srcset="images/introduction/cover-photo-small.jpg 612w,
+                             images/introduction/cover-photo-medium.jpg 900w,
+                             images/introduction/cover-photo-big.jpg 1354w" ></img>
+
+              </div>
+              <div id="carousel-item-3" class="carousel-item">
+                <img class = "carousel-img"
+                     src="images/work_experience/iD-tech/cozmo2-small.jpg"
+                     srcset="images/work_experience/iD-tech/cozmo2-small.jpg 611w,
+                             images/work_experience/iD-tech/cozmo2-medium.jpg 900w,
+                             images/work_experience/iD-tech/cozmo2-big.jpg 1280w " ></img>
+              </div>
+              <div id="carousel-item-3" class="carousel-item">
+                <img class = "carousel-img"
+                     src="images/work_experience/iD-tech/cozmo1.jpg"
+                     ></img>
+              </div>
+
+
+              <!-- <div id="carousel-item-4" class="carousel-item">
+                <a href="#">I'm another item</a>
+              </div>
+
+              <div id="carousel-item-5" class="carousel-item">
+                <a href="#">I'm another item</a>
+              </div>
+
+              <div id="carousel-item-6" class="carousel-item">
+                <a href="#">I'm another item</a>
+              </div>
+
+              <div id="carousel-item-7" class="carousel-item">
+                <a href="#">I'm another item</a>
+              </div> -->
+
+            </div> <!-- end carousel-container -->
+          </div> <!-- end flex container -->
+
+      </section> <!-- end project section -->
+
+      <section>
+        <h1 id="Work" class="section-header">Work Experience</h1>
+          <h2 class="section-header-2">Summer iD Tech</h2>
+            <p class="time-frame">July 2019 - August 2019</p>
+            <p class="section-text">
+            Summer iD tech is a STEM summer program that teaches young
+            students tech curriculum. My role was a tutor where I had to
+            prepare and teach a week long course. I also had to manage
+            and facilitate these students to adhere to camp guidelines.
+            I worked alongside a team of other talented instructors to cultivate a
+            fun and educational environment. Some courses I taught include:
+            "Assemble Your Take-Home Laptop and Code in Python,"
+            "Cybersecurity and Encryption," and "Python Coding and AI with Take-Home Cozmo."
+            </p>
+            <img src="images/work_experience/iD-tech/cozmo2-small.jpg"
+                 srcset="images/work_experience/iD-tech/cozmo2-small.jpg 611w,
+                         images/work_experience/iD-tech/cozmo2-medium.jpg 900w,
+                         images/work_experience/iD-tech/cozmo2-big.jpg 1280w "
+                 sizes="(min-width: 960px) 960px,
+                       100vw"></img>
+
+          <h2 class="section-header-2">Outreach Coordinator</h2>
+            <p class="time-frame">June 2017 - June 2018</p>
+            <p class="section-text">
+            The Campus Village housing community hired a small board to
+            organize successful, creative programs and events for the community.
+            One event in particular was designing our very own escape room
+            for residents. We had puzzles and hints around our community center
+            and I thought it would be an interesting idea to have a small
+            text-based game as one of the puzzles to escaping. I coded
+            it in Python and utilized classes and inheritance to represent
+            rooms and items within the game.
+            </p>
+            <span class="link">
+              <i class="fab fa-github"></i>
+              <a href="https://github.com/printernick/Escape-Room">Github</a>
+            </span>
+            <img src="images/work_experience/outreach-coordinator/text-based-game-small.png"
+                 srcset="images/work_experience/outreach-coordinator/text-based-game-small.png 491w,
+                         images/work_experience/outreach-coordinator/text-based-game-big.png 766w"
+                 sizes="(min-width: 960px) 960px,
+                      100vw"></img>
+
+      </section> <!-- end work section -->
+
+      <!-- <section>
+        <h1 id="Extras" class="section-header">Hobbies and Interests</h1>
+          <h2 class="section-header-2">Level V Origins</h2>
+            <p class="section-text">
+            I joined a dance team! I had never danced seriously with choreography
+            before, so it was a really fun and challenging experience. I was
+            not completely comfortable at first, but I stuck with it and
+            improved a lot! Check out some of our performances.
+            </p>
+            <iframe width="100vw" height="315" src="https://www.youtube.com/embed/ldbqrvanxQw"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+            <iframe width="100vw" height="315" src="https://www.youtube.com/embed/xSjHqFBczDk"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+          <h2 class="section-header-2">Zotfilm</h2>
+          <p class="section-text">
+          I also really enjoy making (and watching) films! I have not made
+          as many as I would have liked to recently but check out some short films
+          I made with some amazing teams.
+          </p>
+          <iframe width="100vw" height="315" src="https://www.youtube.com/embed/5CwDO_Fz0xc"
+          frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+          <iframe width="100vw" height="315" src="https://www.youtube.com/embed/jTgZBC1AGRE"
+          frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+
+      </section> -->
+
+
+
+
+    </article> <!-- end of page -->
+
+    <footer>
+      <a href="docs/resume.pdf" class="footer-item" title="Resume">
+        <i class="far fa-file-pdf"></i>
+      </a>
+
+      <a href="https://github.com/printernick" class="footer-item" title="Github">
+        <i class="fab fa-github"></i>
+      </a>
+
+      <a href="https://www.linkedin.com/in/phi-khanh-nicholas-tran-a1284a183/" class="footer-item" title="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+
+      <a href="https://www.instagram.com/printernick/" class="footer-item" title="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+
+      <a href="https://www.facebook.com/nicholas.tran.549" class="footer-item" title="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+
+      <a href="https://twitter.com/printernick" class="footer-item" title="Twitter">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </footer>
+
+  </body>
+</html>
