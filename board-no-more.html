@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <meta name='viewport'
+      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <title>Board No More | CS Portfolio</title>
+    <link rel='stylesheet' href='styles.css'/>
+
+    <script src="https://kit.fontawesome.com/d787f992c4.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jquery_methods.js"></script>
+  </head>
+  <body>
+
+    <header class="main-header">
+      <nav>
+        <a href="index.html">Nick Tran</a>
+        <a href="https://github.com/printernick/Board-No-More-Rest" title="Github">
+          <i class="fab fa-github"></i>
+        </a>
+
+      </nav>
+    </header>
+
+    <article class="page">
+      <section class="flex-container">
+        <h1 class="flex-item">Board No More</h1>
+        <p class="time-frame flex-item">April 2019 - June 2019</p>
+        <img class = "flex-item"
+             src="images/projects/boardNoMore/table-small.png"
+             srcset="images/projects/boardNoMore/table-small.png 730w,
+                     images/projects/boardNoMore/table-medium.png 1200w,
+                     images/projects/boardNoMore/table-big.png 1894w "
+             sizes="(min-width: 960px) 960px,
+                    100vw"></img>
+        <p class="section-text flex-item">
+          Board No More is a board game business web application for the sales of popular board games.
+          It's design was created through HTML, CSS, and JavaScript and utilizes RESTful web services for its server side logic.
+          Board No More pulls data from a SQL database to display data and can even process orders and add those to an
+          existing database.
+        </p>
+      </section>
+      <hr>
+      <section class="flex-container">
+        <p class= "section-text fill-half flex-item">
+          Board No More retrieves data from a SQL database and dynamically
+          generates a table of products based on the information from the database.
+          This is what the product table looked like before adding an
+          additional board game.
+        </p>
+        <img class="fill-half external-image flex-item" src="images/projects/boardNoMore/before.png"></img>
+        <img class="fill-half flex-item" src="images/projects/boardNoMore/addGame.png"></img>
+        <p class="fill-half flex-item">
+          This is adding information into the SQL database. I am adding providing
+          the necessary information for the table and for the detailed listing.
+        </p>
+
+        <p class="fill-half flex-item">I must also include images into the image table.</p>
+        <img class="fill-half flex-item" src="images/projects/boardNoMore/addImage.png"></img>
+
+        <img class="fill-half flex-item" src="images/projects/boardNoMore/addedGame.png"></img>
+        <p class="fill-half flex-item"> This is the result in the product table!</p>
+
+        <p class="fill-half flex-item"> This is the detailed listing of the new game.</p>
+        <img class="fill-half flex-item" src="images/projects/boardNoMore/detailedAddedGame.png"></img>
+
+        <img class="fill-half flex-item" src="images/projects/boardNoMore/order.png"></img>
+        <p class="fill-half flex-item"> Filling out the form will also add the data into the database. This
+        is an example of an order for the new listed game Coup.</p>
+
+        <p class="fill-half flex-item"> This is the result (before and after).</p>
+        <div class="fill-half flex-item">
+          <img src="images/projects/boardNoMore/ordersBefore.png"></img>
+          <img src="images/projects/boardNoMore/ordersAfter.png"></img>
+        </div>
+      </section>
+
+    </article>
+
+
+  </body>
