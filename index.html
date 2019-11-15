@@ -6,7 +6,8 @@
       content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
     <title>Phi-Khanh Tran | CS Portfolio</title>
     <link rel='stylesheet' href='styles.css'/>
-    <link rel="stylesheet" type="text/css" href="file:///C:/Users/trann/Desktop/cs-portfolio/fontawesome-free-5.10.2-web/css/all.min.css">
+
+    <script src="https://kit.fontawesome.com/d787f992c4.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/jquery_methods.js"></script>
   </head>
@@ -17,21 +18,20 @@
         <a href="#">Nick Tran</a>
         <div class="menu-container">
           <a href="#" class="menu">
-            <i class="fa fa-bars"></i>
+            <i class="fas fa-bars"></i>
           </a>
           <ul class="navbar">
-            <li class="navbar-item"><a href="#Introduction">Introduction</a></li>
-            <li class="navbar-item"><a href="#Education">Education</a></li>
-            <li class="navbar-item"><a href="#Projects">Projects</a></li>
-            <li class="navbar-item"><a href="#Work">Work</a></li>
-            <li class="navbar-item"><a href="#Extras">Extras</a></li>
+            <li class="navbar-item" href="#Introduction">Introduction</li>
+            <li class="navbar-item" href="#Education">Education</li>
+            <li class="navbar-item" href="#Projects">Projects</li>
+            <li class="navbar-item" href="#Work">Work</li>
+            <li class="navbar-item" href="#Extras">Extras</li>
           </ul>
         </div>
       </nav>
     </header>
 
     <article class="page">
-
       <section>
         <img src="images/introduction/cover-photo-small.jpg"
              srcset="images/introduction/cover-photo-small.jpg 612w,
@@ -133,67 +133,92 @@
       <section>
         <h1 id="Projects" class="section-header">Projects</h1>
           <div class="flex-container">
+            <i class="carousel-button carousel-back fas fa-chevron-left"></i>
             <div class="carousel-container">
-              <i class="carousel-button carousel-back fas fa-chevron-left"></i>
-              <i class="carousel-button carousel-forward fas fa-chevron-right"></i>
-              <div id="carousel-item-1" class="carousel-item">
-                <!-- <a href="#">I'm first item</a>
+
+              <div class="carousel-item" title="Board-No-More">
+                <img class = "carousel-img"
+                     src="images/projects/boardNoMore/table-small.png"
+                     srcset="images/projects/boardNoMore/table-small.png 730w,
+                             images/projects/boardNoMore/table-medium.png 1200w,
+                             images/projects/boardNoMore/table-big.png 1894w "></img>
+                  <h2 class="carousel-item-title">Board No More</h2>
+              </div> <!-- end carousel-item -->
+
+              <div class="carousel-item" title="Portfolio">
+                <img class = "carousel-img"
+                     src="images/projects/portfolio/cs-portfolio-cover-small.png"
+                     srcset="images/projects/portfolio/cs-portfolio-cover-small.png 500w,
+                             images/projects/portfolio/cs-portfolio-cover-medium.png 768w,
+                             images/projects/portfolio/cs-portfolio-cover-large.png 1591" ></img>
+                    <h2 class="carousel-item-title">Portfolio</h2>
+              </div>
+
+            </div> <!-- end carousel-container -->
+            <i class="carousel-button carousel-forward fas fa-chevron-right"></i>
+            <div id="Board-No-More-Description" class="flex-container detailed-project-container">
+              <div class="detailed-project-item">
+                <div class="project-icon-container">
+                  <a href="https://github.com/printernick/Board-No-More-Rest" title="Github">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="board-no-more.html" title="Details">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <i class="project-close far fa-times-circle"></i>
+                </div>
+              </div>
+              <div class="detailed-project-item">
                 <h2 class="section-header-2">Board No More</h2>
                   <p class="time-frame">April 2019 - June 2019</p>
+                  <img class = "detailed-project-img"
+                       src="images/projects/boardNoMore/table-small.png"
+                       srcset="images/projects/boardNoMore/table-small.png 730w,
+                               images/projects/boardNoMore/table-medium.png 1200w,
+                               images/projects/boardNoMore/table-big.png 1894w "
+                       sizes="(min-width: 960px) 960px,
+                          100vw"></img>
                   <p class="section-text">
                   Board No More is a board game business web application for the sales of popular board games.
                   It's design was created through HTML, CSS, and JavaScript and utilizes RESTful web services for its server side logic.
                   Board No More pulls data from a SQL database to display data and can even process orders and add those to an
                   existing database.
-                  </p> -->
-                  <img class = "carousel-img"
-                       src="images/projects/boardNoMore/table-small.png"
-                       srcset="images/projects/boardNoMore/table-small.png 730w,
-                               images/projects/boardNoMore/table-medium.png 1200w,
-                               images/projects/boardNoMore/table-big.png 1894w "></img>
-
-                  <h2 class="carousel-item-title">Board No More</h2>
+                  </p>
               </div>
-              <div id="carousel-item-2" class="carousel-item">
-                <img class = "carousel-img"
-                     src="images/introduction/cover-photo-small.jpg"
-                     srcset="images/introduction/cover-photo-small.jpg 612w,
-                             images/introduction/cover-photo-medium.jpg 900w,
-                             images/introduction/cover-photo-big.jpg 1354w" ></img>
-
+            </div> <!-- end Board No More Description -->
+            <div id="Portfolio-Description" class="flex-container detailed-project-container">
+              <div class="detailed-project-item">
+                <div class="project-icon-container">
+                  <a href="https://github.com/printernick/cs-portfolio" title="Github">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="portfolio.html" title="Details">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <i class="project-close far fa-times-circle"></i>
+                </div>
               </div>
-              <div id="carousel-item-3" class="carousel-item">
-                <img class = "carousel-img"
-                     src="images/work_experience/iD-tech/cozmo2-small.jpg"
-                     srcset="images/work_experience/iD-tech/cozmo2-small.jpg 611w,
-                             images/work_experience/iD-tech/cozmo2-medium.jpg 900w,
-                             images/work_experience/iD-tech/cozmo2-big.jpg 1280w " ></img>
+              <div class="detailed-project-item">
+                <h2 class="section-header-2">CS Portfolio</h2>
+                  <p class="time-frame">December 2018 - Present</p>
+                  <figure>
+                    <img class = "detailed-project-item"
+                         src="images/projects/portfolio/cs-portfolio-cover-small.png"
+                         srcset="images/projects/portfolio/cs-portfolio-cover-small.png 500w,
+                                 images/projects/portfolio/cs-portfolio-cover-medium.png 768w,
+                                 images/projects/portfolio/cs-portfolio-cover-large.png 1591w"
+                         sizes="(min-width: 960px) 960px,
+                            100vw"></img>
+                    <figcaption class="image-caption">Portfolio-ception</figcaption>
+                  </figure>
+                  <p class="section-text">
+                  Website displaying my background and projects. I created it using HTML, CSS, and JavaScript.
+                  I had a responsive design so it was presentable in mobile, tablet, and desktop screens.
+                  </p>
               </div>
-              <div id="carousel-item-3" class="carousel-item">
-                <img class = "carousel-img"
-                     src="images/work_experience/iD-tech/cozmo1.jpg"
-                     ></img>
-              </div>
-
-
-              <!-- <div id="carousel-item-4" class="carousel-item">
-                <a href="#">I'm another item</a>
-              </div>
-
-              <div id="carousel-item-5" class="carousel-item">
-                <a href="#">I'm another item</a>
-              </div>
-
-              <div id="carousel-item-6" class="carousel-item">
-                <a href="#">I'm another item</a>
-              </div>
-
-              <div id="carousel-item-7" class="carousel-item">
-                <a href="#">I'm another item</a>
-              </div> -->
-
-            </div> <!-- end carousel-container -->
+            </div> <!-- end Portfolio Description -->
           </div> <!-- end flex container -->
+
 
       </section> <!-- end project section -->
 
@@ -242,7 +267,7 @@
 
       </section> <!-- end work section -->
 
-      <!-- <section>
+      <section>
         <h1 id="Extras" class="section-header">Hobbies and Interests</h1>
           <h2 class="section-header-2">Level V Origins</h2>
             <p class="section-text">
@@ -271,7 +296,7 @@
           frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
 
-      </section> -->
+      </section>
 
 
 
